@@ -7,10 +7,16 @@
         font-size: 14px;
         line-height: 21px;
         color: #000;
+        &-resume {
+            color: #000!important;
+        }
     }
     &__fs16 {
         font-size: 16px;
         line-height: 24px;
+    }
+    &__fs20 {
+        font-size: 20px;
     }
     &__fs48 {
         font-size: 48px;
