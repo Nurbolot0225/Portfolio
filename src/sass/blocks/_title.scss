@@ -24,4 +24,19 @@
     &__fs38 {
         font-size: 36px;
     }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        color: #000;
+        @include before_circle;
+        &:before {
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+        color: #000;
+    }
 }
