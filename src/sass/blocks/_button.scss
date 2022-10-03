@@ -1,0 +1,13 @@
+.btn {
+    height: 45px;
+    background: $main-color;    
+    padding: 12px 25px;
+}
+
+.opacity {
+    padding: 10px;
+    transition: all 500ms;
+    &:hover {
+       background: $main-color;
+    }
+}
