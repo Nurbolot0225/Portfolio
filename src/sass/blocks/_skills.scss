@@ -11,6 +11,11 @@
     &__item {
         border: 1px solid black;
         padding: 30px 30px 25px 30px;
+        cursor: pointer;
+        transition: all .4s;
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
         &-img {
             display: flex;
             align-items: center;
