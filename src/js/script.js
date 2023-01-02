@@ -6,7 +6,7 @@ hamburger.addEventListener('click', () => {
     menu.classList.add('active');
 });
 
-closeElem .addEventListener('click', () => {
+closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
